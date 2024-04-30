@@ -35,6 +35,46 @@ li {
 .header {
     background-color: white;
     grid-area: 1/2/3/3;
+    display: grid;
+    grid-template-columns: 4fr minmax(250px, 350px);
+    grid-template-rows: 1fr 1fr;
+}
+
+#search-icon,
+#notif-icon,
+input.icon {
+    height: 25px;
+    width: 25px;
+}
+
+#search{
+    width: 500px;
+}
+
+.user-info {
+    display: flex;
+}
+
+#profile-pic {
+    height: 45px;
+    width: auto;
+    background-color: rgb(189, 133, 241);
+    border-radius: 50%;
+}
+
+.welcome {
+    display: flex;
+}
+
+#welcome-pic {
+    height: 70px;
+    width: auto;
+    background-color: rgb(189, 133, 241);
+    border-radius: 50%;
+}
+
+button.menu{
+    background-color: rgb(189, 133, 241);
 }
 
 .sidebar {
@@ -59,27 +99,12 @@ li {
     width: 45px;
 }
 
-/*.nav-items {
-    display: grid;
-    grid-area: 1/1;
-}*/
-/*.settings-items {
-    display: grid;
-}*/
-
 .nav {
-    display: grid;
     grid-template-rows: 2/4;
 }
 
 .settings {
-    display: grid;
     grid-template-rows: 4/5;
-}
-
-input.icon {
-    height: 35px;
-    width: 35px;
 }
 
 .main {
