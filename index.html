@@ -1,16 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="header"></div>
-        <div class="sidebar"></div>
-        <div class="main"></div>
+        <div class="header">
+            <div class="search"></div>
+            <div class="user-info"></div>
+            <div class="menu"></div>
+        </div>
+        <div class="sidebar">
+            <div class="dashboard">
+                <input type="image" id="dashboard" alt="Dashboard" src="images/view-dashboard-outline.svg">
+                Dashboard
+            </div>
+            <div class="nav">
+                <ul class="nav-items">
+                    <li>
+                        <input type="image" class="icon" alt="Home" src="images/home-variant-outline.svg">
+                        Home
+                    </li>
+                    <li>
+                        <input type="image" class="icon" alt="Profile" src="images/account-circle-outline.svg">
+                        Profile
+                    </li>
+                    <li>
+                        <input type="image" class="icon" alt="Messages" src="images/message-text-outline.svg">
+                        Messages
+                    </li>
+                    <li>
+                        <input type="image" class="icon" alt="History" src="images/history.svg">
+                        History
+                    </li>
+                    <li>
+                        <input type="image" class="icon" alt="Tasks" src="images/clipboard-check-outline.svg">
+                        Tasks
+                    </li>
+                    <li>
+                        <input type="image" class="icon" alt="Communities" src="images/account-group-outline.svg">
+                        Communities
+                    </li>
+                </ul>
+            </div>
+            <div class="settings">
+                <ul class="settings-items">
+                    <li>
+                        <input type="image" class="icon" alt="Settings" src="images/cog-outline.svg">
+                        Settings
+                    </li>
+                    <li>
+                        <input type="image" class="icon" alt="Support" src="images/help-circle-outline.svg">
+                        Support
+                    </li>
+                    <li>
+                        <input type="image" class="icon" alt="Privacy" src="images/lock-outline.svg">
+                        Privacy
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="projects"></div>
+            <div class="announcements"></div>
+            <div class="trending"></div>
+        </div>
     </div>
 </body>
+
 </html>
